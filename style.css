@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #000000;
 }
 
 body {
@@ -14,27 +15,46 @@ body {
   background-image: url("Apple-iPhone-15-Pro-lineup-Roadside-Assistance-questionnaire-230912_inline.jpg.large_2x-removebg-preview.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
 }
+
+/* .iphone {
+  background-image: url(Apple-iPhone-15-Pro-lineup-Roadside-Assistance-questionnaire-230912_inline.jpg.large_2x-removebg-preview.png);
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+} */
 
 .calculator {
   background: black;
-  height: 60%;
+  /* height: 70%; */
 }
 
 .InputDisplay input {
-  width: 100%;
+  width: 210px;
+  height: 40px;
   outline: none;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: right;
   cursor: pointer;
   margin-bottom: 10px;
+  background-color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+input::placeholder{
+  color: black;
 }
 
 button {
-  width: 25px;
-  height: 25px;
+  width: 23%;
+  /* height: 50%; */
+  font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
+  padding: 7% 0px;
   border: none;
   background-color: #ffffff;
   margin-bottom: 10px;
@@ -55,6 +75,6 @@ button:active {
 }
 
 .BtnZero {
-  width: 55px;
+  width: 48%;
   border-radius: 10px;
 }
